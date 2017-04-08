@@ -7,7 +7,7 @@
 	'use strict';
 
 	jEli
-	.jModule('j.file.uploader',{})
+	.jModule('jeli.file.uploader',{})
 	.jFactory('jUploadService',['$http',jUploadServiceFn])
 	.jElement('jFileUpload',['jUploadService',jFileUploadFn]);
 
